@@ -1,0 +1,41 @@
+/*RESET*/
+
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
+body {background: #0f172a; color: #f1f5f9; line-height: 1.6;}
+.container {max-width: 900px; margin: 0 auto; padding: 40px 20px;}
+
+/*HEADER*/
+
+header{ text-align: center; padding: 40px 0; }
+header h1{ font-size: 2.5rem; color: #38bdf8; }
+header p{ color: #94a3b8; margin-top: 10px; font-size: 1.2rem; }
+.btns{ margin-top: 25px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+.btn{ padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: 0.3s; display: inline-block; }
+.btn-whats{ background: #25D366; color: #000; }
+.btn-linkedin{ background: #0A66C2; color: #fff; }
+.btn-github{ background: #fff; color: #000 ; }
+.btn:hover{ transform: scale(1.05); opacity: 0.9; }
+
+/*SECTIONS*/
+
+section { margin-top: 50px; background: #1e293b; padding: 30px;border-radius: 12px; }
+h2 { color: #38bdf8; margin-bottom: 15px; border-left: 4px solid #38bdf8; }
+
+/*FOOTER*/
+
+footer { text-align: center; margin-top: 50px; color: #64748b; padding-bottom: 20px; }
+
+/* Dia 04 - Deixar bom no Celular*/
+
+@media (max-width: 600px) {
+   body {
+    padding: 15px;
+}
+h1 {
+    font-size: 28px;
+}
+nav a{
+    display: block;
+    margin: 10px;
+  }
+}
